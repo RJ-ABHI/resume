@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navBtn {
+  color: white;
+}
+.homeCont {
+  margin-top: 100px;
+  font-size: 100px;
+}
+.projectContainer {
+  margin-top: 100px;
+}
+.userName {
+  font-size: 30px;
+  color: #ff8c00;
+}
+.ui-ux-img {
+  /* margin-left: 0px; */
+}
+
+.image-box {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 540px;
+}
+.image-box img {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.image-box:hover img {
+  transform: scale(1.1);
+}
+.imgCont {
+  margin-top: 65px;
+  height: 500px;
+  width: 600px;
+  margin-left: 50px;
+}
+.imgCont-full {
+  margin-top: 65px;
+  height: 500px;
+  width: 600px;
+  margin-left: 50px;
+}
+.imgCont-degree {
+  /* margin-top: 65px; */
+  height: 500px;
+  width: 500px;
+}
+.Do {
+  font-size: 75px;
+}
+.degree {
+  font-size: 75px;
+}
+.full-stack {
+  font-size: 50px;
+  font-weight: 600;
+}
+.homeRow {
+  /* color: orange; */
+}
+.full-stack-row {
+  margin-top: 8px;
+  font-size: 21px;
+  font-weight: 600;
+}
+.eduCont {
+  margin-top: 70px;
+}
+.eduRow {
+  font-size: 80px;
+  margin-top: 40px;
+}
+.clgLogo {
+  height: 100px;
+}
+.clgLogo-inter {
+  height: 100px;
+}
+.MuiTimelineConnector-root {
+  height: 100px;
+}
+.classes {
+  padding: "6px 16px";
+}
+.jumbotron {
+  max-height: 200px !important;
+}
+.MuiPaper-root {
+  background-color: #ff0000;
+}
+.journey {
+  margin-top: 100px;
+}
+.projectHeader {
+  font-size: 50px;
+  /* font-family: "Sofia", sans-serif; */
+}
+.navbar-nav {
+  flex-direction: row;
+}
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
+  .homeCont {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-width: 769px) {
+}
+@media only screen and (max-width: 768px) and (min-width: 736px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 667px) {
+}
+@media (max-width: 568px) {
+}
+@media (max-width: 479px) {
+  .homeCont {
+    font-size: 40px;
+  }
+}
